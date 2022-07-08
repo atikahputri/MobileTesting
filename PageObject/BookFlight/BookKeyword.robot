@@ -24,3 +24,6 @@ Select "Start Date"
 Select "End Date"
 Select "Flight" Radiobutton
 Select "+/-1 Day" Checklist 
+Tap Book Button
+Tap Confirm Button
+Verify Message Appears
