@@ -2,7 +2,7 @@
 Documentation       Search Flight Number Related Keyword
 Library             AppiumLibrary
 Variables           ../Login/LoginLocator.yaml 
-Variables           ../SearchFlight/SearchLocator.yaml
+Variables           ../SearchFlight/BookLocator.yaml
 
 *** Variables ***
 ${user_email}      support@ngendigital.com 
@@ -16,16 +16,11 @@ User Should Be Able To Login
     Input text                      ${password}             ${user_password}     
     Tap                             ${signin_button}
 
-Tap Search Tab
-    Wait Until Page Contains        ${search_tab}
-    Tap                             ${search_tab}
-
-Input Flight Number
-    [Arguments]                     ${flight_id}
-    Input text                      ${search_field}      ${flight_id}
-
-Tap Search Button
-    Tap                             ${search_button}
-
-Verify Message
-    Element Should Be Visible       ${flight_number}
+Tap Book Tab
+Select "From City" Dropdown
+Select "To City" Dropdown
+Select "Class" Dropdown
+Select "Start Date" 
+Select "End Date"
+Select "Flight" Radiobutton
+Select "+/-1 Day" Checklist 
