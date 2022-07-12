@@ -1,6 +1,6 @@
 # MobileTesting
 
-Halo teman teman untuk mobile automation kali ini maneggunakan Robot Framework (RF) dan Python sebagai base programming languagenya.
+Halo teman teman untuk mobile automation kali ini menggunkan Robot Framework (RF) dan Python sebagai base programming languagenya.
 
 Untuk mengawali pembuatan project automation testing diperlukan beberapa tools dibawah ini :
 1. Appium Library
