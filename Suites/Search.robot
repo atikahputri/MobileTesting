@@ -14,6 +14,6 @@ ${fligt_num}        DA935
 User Should Be Able To Search Flight Number
     User Should Be Able To Login
     Tap Search Tab
-    Input Flight Number             flight_id= ${fligt_num}      
+    Input Flight Number             flight_id=${fligt_num}               
     Tap Search Button
-    Verify Message
+    Verify Message Appears
