@@ -1,0 +1,30 @@
+book_tab: com.example.myapplication:id/book
+from_city: com.example.myapplication:id/spinnerFrom
+toronto: xpath=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[3]
+to_city: com.example.myapplication:id/spinnerTo
+paris: xpath=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]
+class: com.example.myapplication:id/spinnerClass
+first_class: xpath=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]
+start_date: com.example.myapplication:id/textStartDate
+choose_start_date: xpath=//android.view.View[@content-desc="01 August 2019"]
+ok_button: android:id/button1
+end_date: com.example.myapplication:id/textEndDate
+choose_end_date: xpath=//android.view.View[@content-desc="02 August 2019"]
+flight_button: com.example.myapplication:id/radioButtonFlight
+checkbox: com.example.myapplication:id/checkBoxDay
+book_button: com.example.myapplication:id/book_flight
+price: com.example.myapplication:id/price2
+confirm_order: com.example.myapplication:id/confirm_order
+text_from_city: com.example.myapplication:id/textFromCity
+text_to_city: com.example.myapplication:id/textToCity
+confirmation: com.example.myapplication:id/checkedTextView
+
+
+
+
+
+
+
+
+
+

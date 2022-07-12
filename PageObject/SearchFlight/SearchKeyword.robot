@@ -21,11 +21,13 @@ Tap Search Tab
     Tap                             ${search_tab}
 
 Input Flight Number
+    Wait Until Page Contains        ${search_field}
     [Arguments]                     ${flight_id}
-    Input text                      ${search_field}      ${flight_id}
-
+    Input text                      ${search_field}      ${flight_id}   
+    
 Tap Search Button
     Tap                             ${search_button}
 
-Verify Message
+Verify Message Appears
+    sleep                           10s
     Element Should Be Visible       ${flight_number}
