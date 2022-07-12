@@ -7,7 +7,7 @@ Untuk mengawali pembuatan project automation testing diperlukan beberapa tools d
 2. Python Pip
 3. Robot Framework
 4. Aplikasi VScode
-5. Flightapp.apk (ada di /source)
+5. Flightapp.apk
 6. Extension YAML
 
 Cara menjalankan automation test
